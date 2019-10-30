@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Planner
+comment0.text=imports
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ \ \ \ public\ String\ major(){\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ System.out.println("Enter\ your\ degree\ \\n");\r\n\ \ \ \ \ \ \ \ degree\ \=\ reader.next();\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ switch(degree){\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ case\ "BCH"\:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("What\ is\ your\ major?");\r\n\ \ \ \ \ \ \ \ \ \ \ \ major\ \=\ readerTwo.next();\r\n\ \ \ \ \ \ \ \ \ \ \ \ //System.out.println(major);\r\n\ \ \ \ \ \ \ \ \ \ \ \ break;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ case\ "BCG"\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("What\ is\ your\ major?");\r\n\ \ \ \ \ \ \ \ \ \ \ \ major\ \=\ readerTwo.next();\r\n\ \ \ \ \ \ \ \ \ \ \ \ break;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ default\:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Please\ select\ either\ BCH\ or\ BCG");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \r\n\ \ \ \ return\ degree;\r\n\ \ \ \ }\r\n
+numComments=2

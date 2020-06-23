@@ -2,6 +2,7 @@ Anupta Islam
 anupta@uoguelph.ca
 
 **INSTRUCTIONS FOR RUNNING THE COMMAND LINE INTERFACE PROGRAM**
+
 To create the executable jar enter:
 "mvn assembly:assembly"
 "cd target"

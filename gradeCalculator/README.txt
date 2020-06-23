@@ -3,6 +3,8 @@ anupta@uoguelph.ca
 CIS 2430 
 Final Exam Project
 
+****MAVEN IS REQUIRED TO RUN MY PROGRAM****
+
 **** RUNNING MY PROGRAM *****
 
 1. Clone the repository to your computer.

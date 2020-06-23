@@ -1,47 +1,44 @@
 Anupta Islam
 anupta@uoguelph.ca
-1007108
 
-I, Anupta Islam, did the work for this assignment on my own and without coying work from any other sources.
+**INSTRUCTIONS FOR RUNNING THE COMMAND LINE INTERFACE PROGRAM**
+To create the executable jar enter:
+"mvn assembly:assembly"
+"cd target"
 
+TO LOAD A NEW GAME ENTER:
+"java -jar TheGame-1.0-jar-with-dependencies.jar -a <loadable json file>"
 
-**Running The Program**
+OR TO LOAD A SAVED GAME ENTER:
+"java -jar TheGame-1.0-jar-with-dependencies.jar -l <saved game name>"
 
-For a default adventure: 
-- enter the command "mvn compile"
-- once compiled, enter "mvn exec:java" to launch the code 
-- enter the value of "0" at the first prompt where you will then be asked if you want to load a saved file or start from scratch
-- enter 1 if you have a saved file and 0 if you do not
+**ONCE STARTING ROOM HAS LOADED ON THE CLI**
+You can now begin playing the game.
+You can only go back and forth between rooms that are connected. If an incorrect room direction is entered program will stop running. 
+Enter "go N" to go to the Library. 
+Once at the Library enter "go E" to go to the Mackinnon building.
+Enter "S" from there to go to Rozanski hall. 
+From Rozanski you can enter "go E" to go to the athletic centre. 
+Enter "go up" to go to the second floor of the athletic cetnre and "go down" to return to the first floor.
+This is the final room in the game.
 
-For loading a saved game in a default adventure:
-- enter the command "mvn compile"
-- once compiled, enter "mvn exec:java" to launch the code 
-- enter the value of "0" at the first prompt where you will then be asked if you want to load a saved file or start from scratch
-- enter 1 if you have a saved file
-- desearilization should begin if the file name is correct
+You can also enter the opposite direction from which you came to go to the previous room. 
+E.g. "go N" takes you to Mclaughlin library from the University Centre, enter "go S" from the Mclaughlin library to go back to the University Centre
 
-For a loadable adventure:
-- enter the command "mvn compile"
-- once compiled, enter "mvn exec:java" to launch the code 
-- enter the value of "1" at the first prompt where you will then be asked if you want to load a saved file or start from scratch
-- enter 1 if you have a saved file and 0 if you do not
+**LOADING A SAVED GAME**
+When you quit, you will be prompted to enter a name for your saved game.
+To load that saved game, enter: "java -jar TheGame-1.0-jar-with-dependencies.jar -l <saved game name>" and deserialization should start.
 
-For loading a saved game in a loadable adventure:
-- enter the command "mvn compile"
-- once compiled, enter "mvn exec:java" to launch the code 
-- enter the value of "1" at the first prompt where you will then be asked if you want to load a saved file or start from scratch
-- enter 1 if you have a saved file
-- desearilization should begin if the file name is correct
-
-**Locations Of Some Of The Bigger Requirements**
-- Map data structure for entrances / exits : Lines 11, 43, 108, 258 in Room.java
-- public JSONObject loadAdventureJSON(InputStream inputStream): Line 410 in Game.java
-
-**For Quitting**
-- Type "quit" to exit the game
-- you will be prompted to either save the game or exit enter 1 to save or 0 to just leave
-- after the scanner will be waiting for your input, type "quit" as there won't be anything left to do in the game
-
+**CLI GAME COMMANDS**
+"look" : shows a description of the room you are in
+"look <itemname>" : if there is an item in the room and you enter this command, a description of the item will be displayed
+"take <itemname>" : if there is an item in the room and you take it, it is added to your inventory
+"inventory" : displays your players current inventory
+"quit" : user will be able to quit the game and is prompted if they want to save their current game
+ 
+**DEFAULT ADVENTURE FILE**
+My default adventure file is called "default_adventure.json"
+The command to run a new default game would be: ""java -jar TheGame-1.0-jar-with-dependencies.jar -a default_adventure.json".
 
 
 

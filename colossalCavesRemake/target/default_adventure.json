@@ -1,0 +1,139 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "name": "the university centre",
+        "short_description": "This is the main area of the UC",
+        "long_description": "The main area has an elevator to the upper floors and there is a food court",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "N"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "McLaughlin library",
+        "short_description": "the library",
+        "long_description": "University of Guelph's library",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "S"
+          },
+          {
+            "id": 102,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          },
+          {
+              "id": 3
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "MacKinnon",
+        "short_description": "the Mackinnon building",
+        "long_description": "the Mackinnon building which has study rooms and holds lectures",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "W"
+          },
+          {
+            "id": 103,
+            "dir": "S"
+          }
+
+        ],
+        "loot": [
+          {
+            "id": 4
+          }
+        ]
+      },
+      {
+          "id": 103,
+          "name": "Rozanski hall",
+          "short_description": "lecture hall",
+          "long_description": "building which is mainly used for lectures",
+          "entrance": [
+            {
+              "id": 102,
+              "dir": "N"
+            },
+            {
+              "id": 104,
+              "dir": "E"
+            }
+          ],
+          "loot": [
+            {
+              "id": 5
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "name": "the athletic centre",
+          "short_description": "the athletic centre",
+          "long_description": "has a gym, pool, indoor basketball courts and more",
+          "entrance": [
+            {
+              "id": 103
+            },
+            {
+              "id": 105,
+              "dir": "up"
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "name": "second floor of the athletic centre",
+          "short_description": "This is the second floor",
+          "long_description": "There is a gym area, a track to run on and a study area",
+          "entrance": [
+            {
+              "id": 104,
+              "dir": "down"
+            }
+          ]
+        }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "notebook",
+        "desc": "a notebook left on a table"
+      },
+      {
+        "id": 2,
+        "name": "textbook",
+        "desc": "a course textbook left in a study room"
+      },
+      {
+          "id": 3,
+          "name": "$5",
+          "desc": "$5 in cash on the floor"
+        },
+        {
+          "id": 4,
+          "name": "charger",
+          "desc": "an iPhone charger found plugged into the wall outlet"
+        },
+        {
+          "id": 5,
+          "name": "remote",
+          "desc": "projector remote found in a lecture hall"
+        }
+    ]
+  }
+}

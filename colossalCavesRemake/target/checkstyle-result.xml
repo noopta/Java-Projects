@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Adventure.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Command.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Game.java">
+<error line="69" column="5" severity="error" message="Method length is 287 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="69" column="46" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="224" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="576" column="5" severity="error" message="Method length is 52 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\InvalidCommandException.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Item.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Parser.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Player.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\Room.java">
+</file>
+<file name="C:\Users\Anupta Islam\Documents\2430summer\a2Resub\project\src\main\java\adventure\SerializationDemo.java">
+<error line="6" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+</checkstyle>

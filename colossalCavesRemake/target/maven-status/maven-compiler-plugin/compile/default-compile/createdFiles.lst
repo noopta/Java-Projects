@@ -1,0 +1,9 @@
+adventure\Command.class
+adventure\SerializationDemo.class
+adventure\Item.class
+adventure\Game.class
+adventure\Room.class
+adventure\InvalidCommandException.class
+adventure\Adventure.class
+adventure\Parser.class
+adventure\Player.class

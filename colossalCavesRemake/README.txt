@@ -44,24 +44,3 @@ To load that saved game, enter: "java -jar TheGame-1.0-jar-with-dependencies.jar
 **DEFAULT ADVENTURE FILE**
 My default adventure file is called "default_adventure.json"
 The command to run a new default game would be: ""java -jar TheGame-1.0-jar-with-dependencies.jar -a default_adventure.json".
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

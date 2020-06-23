@@ -4,13 +4,17 @@ anupta@uoguelph.ca
 **INSTRUCTIONS FOR RUNNING THE COMMAND LINE INTERFACE PROGRAM**
 
 To create the executable jar enter:
+
 "mvn assembly:assembly"
+
 "cd target"
 
 TO LOAD A NEW GAME ENTER:
+
 "java -jar TheGame-1.0-jar-with-dependencies.jar -a <loadable json file>"
 
 OR TO LOAD A SAVED GAME ENTER:
+
 "java -jar TheGame-1.0-jar-with-dependencies.jar -l <saved game name>"
 
 **ONCE STARTING ROOM HAS LOADED ON THE CLI**
